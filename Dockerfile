@@ -18,4 +18,6 @@ RUN pip3 install -U robotframework==$ROBOT_FRAMEWORK_VERSION \
                  paramiko \
                  paramiko-expect \
                  jsnapy
+COPY examples/ /scripts
+
 WORKDIR /scripts
