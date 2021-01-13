@@ -15,6 +15,7 @@ RUN pip3 install -U robotframework==$ROBOT_FRAMEWORK_VERSION \
                  PyYAML \
                  requests \
                  robotframework-requests \
+                 robotframework-sshlibrary \
                  paramiko \
                  paramiko-expect \
                  jsnapy
