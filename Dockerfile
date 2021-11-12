@@ -1,6 +1,6 @@
 FROM juniper/pyez:latest
 ## Pablo Sagrera Garcia
-ENV ROBOT_FRAMEWORK_VERSION 3.1.2
+ENV ROBOT_FRAMEWORK_VERSION 4.0.2 
 
 ENV PYTHONPATH /scripts/git-sync 
 
